@@ -11,8 +11,7 @@ import com.lombok.service.InsuranceService;
 
 @RestController
 @RequestMapping("/insurance")
-public class LombokController 
-{
+public class LombokController{
 
 	@Autowired
 	InsuranceService insuranceService;
